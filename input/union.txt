@@ -1,0 +1,92 @@
+Ada Lovelace
+Adi Shamir
+Alan Kay
+Alan Perlis
+Alan Turing
+Allen Emerson
+Allen Newell
+Amir Pnueli
+Andrew Chi-Chih Yao
+Arthur Burks
+Barbara Liskov
+Bob Floyd
+Bob Kahn
+Bob Tarjan
+Butler Lampson
+Charles Bachman
+Chuck Thacker
+Claude Shannon
+Corby Corbato
+Dana Scott
+Dana Stewart Scott
+David Clark
+David Gale
+Dennis Ritchie
+Dick Edwin Stearns
+Dick Karp
+Don Knuth
+Douglas Engelbart
+Ed Feigenbaum
+Edgar Codd
+Edmund Melson Clarke
+Edsger Dijkstra
+Fran Elizabeth Allen
+Fred Brooks
+Frederick Brooks
+George Boole
+Gordon Moore
+Grace Hopper
+Herb Simon
+Herman Goldstine
+Ivan Sutherland
+J. C. R. Licklider
+Jack Edmonds
+Jim Nicholas Gray
+Jim Wilkinson
+John Backus
+John Cocke
+John Hopcroft
+John McCarthy
+John von Neumann
+Joseph Sifakis
+Joseph Weizenbaum
+Judea Pearl
+Juris Hartmanis
+Ken Iverson
+Ken Thompson
+Kenneth Thompson
+Kristen Nygaard
+Kurt Godel
+Len Max Adleman
+Leonid Levin
+Leslie Gabriel Valiant
+Leslie Lamport
+Lloyd Shapley
+Manuel Blum
+Martin Hellman
+Marvin Minsky
+Maurice Wilkes
+Michael Rabin
+Michael Stonebraker
+Nathaniel Rochester
+Niklaus Wirth
+Noam Chomsky
+Ole-Johan Dahl
+Peter Nauer
+Peter Naur
+Raj Reddy
+Richard Hamming
+Richard Karp
+Robert Floyd
+Robin Milner
+Ron Linn Rivest
+Shafi Goldwasser
+Silvio Micali
+Stephen Cook
+Ted Codd
+Tim Berners-Lee
+Tony Hoare
+Vannevar Bush
+Velvel Kahan
+Vint Gray Cerf
+Whitfield Diffie

@@ -1,0 +1,65 @@
+Berners-Lee, Tim
+Diffie, Whitfield
+Hellman, Martin
+Stonebraker, Michael
+Lamport, Leslie
+Goldwasser, Shafi
+Micali, Silvio
+Pearl, Judea
+Valiant, Leslie Gabriel
+Thacker, Charles P. (Chuck)
+Liskov, Barbara
+Clarke, Edmund Melson
+Emerson, E. Allen
+Sifakis, Joseph
+Allen, Frances ("Fran") Elizabeth
+Naur, Peter
+Cerf, Vinton (“Vint”) Gray
+Kahn, Robert (“Bob”) Elliot
+Kay, Alan
+Adleman, Leonard (Len) Max
+Rivest, Ronald (Ron) Linn
+Shamir, Adi
+Dahl, Ole-Johan
+Nygaard, Kristen
+Yao, Andrew Chi-Chih
+Brooks, Frederick ("Fred")
+Gray, James ("Jim") Nicholas
+Engelbart, Douglas
+Pnueli, Amir
+Blum, Manuel
+Feigenbaum, Edward A ("Ed")
+Reddy, Dabbala Rajagopal ("Raj")
+Hartmanis, Juris
+Stearns, Richard ("Dick") Edwin
+Lampson, Butler W
+Milner, Arthur John Robin Gorell ("Robin")
+Corbato, Fernando J ("Corby")
+Kahan, William (“Velvel”) Morton
+Sutherland, Ivan
+Cocke, John
+Hopcroft, John E
+Tarjan, Robert (Bob) Endre
+Karp, Richard ("Dick") Manning
+Wirth, Niklaus E
+Ritchie, Dennis M.
+Thompson, Kenneth Lane
+Cook, Stephen Arthur
+Codd, Edgar F. ("Ted")
+Hoare, C. Antony ("Tony") R.
+Iverson, Kenneth E. ("Ken")
+Floyd, Robert (Bob) W
+Backus, John
+Rabin, Michael O.
+Scott, Dana Stewart
+Newell, Allen
+Simon, Herbert ("Herb") Alexander
+Knuth, Donald ("Don") Ervin
+Bachman, Charles William
+Dijkstra, Edsger Wybe
+McCarthy, John
+Wilkinson, James Hardy ("Jim")
+Minsky, Marvin
+Hamming, Richard W
+Wilkes, Maurice V.
+Perlis, Alan J

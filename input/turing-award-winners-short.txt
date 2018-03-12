@@ -1,0 +1,65 @@
+Tim Berners-Lee
+Whitfield Diffie
+Martin Hellman
+Michael Stonebraker
+Leslie Lamport
+Shafi Goldwasser
+Silvio Micali
+Judea Pearl
+Leslie Gabriel Valiant
+Chuck Thacker
+Barbara Liskov
+Edmund Melson Clarke
+Allen Emerson
+Joseph Sifakis
+Fran Elizabeth Allen
+Peter Naur
+Vint Gray Cerf
+Bob Kahn
+Alan Kay
+Len Max Adleman
+Ron Linn Rivest
+Adi Shamir
+Ole-Johan Dahl
+Kristen Nygaard
+Andrew Chi-Chih Yao
+Fred Brooks
+Jim Nicholas Gray
+Douglas Engelbart
+Amir Pnueli
+Manuel Blum
+Ed Feigenbaum
+Raj Reddy
+Juris Hartmanis
+Dick Edwin Stearns
+Butler Lampson
+Robin Milner
+Corby Corbato
+Velvel Kahan
+Ivan Sutherland
+John Cocke
+John Hopcroft
+Bob Tarjan
+Dick Karp
+Niklaus Wirth
+Dennis Ritchie
+Kenneth Thompson
+Stephen Cook
+Ted Codd
+Tony Hoare
+Ken Iverson
+Bob Floyd
+John Backus
+Michael Rabin
+Dana Stewart Scott
+Allen Newell
+Herb Simon
+Don Knuth
+Charles Bachman
+Edsger Dijkstra
+John McCarthy
+Jim Wilkinson
+Marvin Minsky
+Richard Hamming
+Maurice Wilkes
+Alan Perlis
