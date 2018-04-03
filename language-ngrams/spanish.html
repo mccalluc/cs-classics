@@ -1,0 +1,597 @@
+<html itemscope itemtype="http://schema.org/WebApplication"
+      xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      
+        <meta itemprop="url" content="https://books.google.com/ngrams/graph?content=algol%2Cfortran%2Clisp&amp;case_insensitive=on&amp;year_start=1950&amp;year_end=2008&amp;corpus=21&amp;smoothing=1&amp;share=&amp;"/>
+        <meta itemprop="name" content="Google Ngram Viewer">
+        <meta itemprop="description" content="Google Ngram Viewer: &#39;[Algol]&#39;, &#39;[ALGOL]&#39;, &#39;[algol]&#39;, &#39;[FORTRAN]&#39;, &#39;[Fortran]&#39;, &#39;[fortran]&#39;, &#39;[LISP]&#39;, &#39;[Lisp]&#39;, &#39;[lisp]&#39;, 1950-2008 in Spanish.">
+        <meta itemprop="image"
+              content="/ngrams/books_logo.png">
+
+    <title>Google Ngram Viewer</title>
+    <link rel="stylesheet" type="text/css" href="https://www.google.com/css/google.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://www.google.com/css/modules/buttons/g-button.css">
+    <link rel="stylesheet" type="text/css" href="/ngrams/style.css">
+  </head>
+
+  <body id="container">
+    
+    <h1 id="logo">
+      <table>
+       <tr>
+         <td><a href="/ngrams">
+             <img height="40"
+                  src="/ngrams/books_logo.png"
+                  alt="Google Books"></a>
+         </td>
+         <td style="padding-left: 0cm; color: #009925; font-size: 28px;">Ngram Viewer</td>
+         
+       </tr>
+      </table>
+    </h1>
+
+    
+  
+    
+      <script type="text/javascript"
+              src="https://apis.google.com/js/plusone.js"></script>
+      <script
+        src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+      </script>
+  
+
+  
+  
+
+  <script>
+    function toggle_textarea(element) {
+      var div = document.getElementById(element);
+      if (div.style.display == 'none') {
+        div.style.display = 'block';
+        div.style.visibility = 'visible';
+        var textBox = document.getElementById(element + '_text');
+        textBox.select();
+      } else {
+        div.style.display = 'none';
+      }
+    }
+    function toggle_help(element, tip_element) {
+      var div = document.getElementById(element);
+      var tip_div = document.getElementById(tip_element);
+      tip_div.style.display = 'none';
+      if (div.style.display == 'none') {
+        div.style.display = 'block';
+        div.style.visibility = 'visible';
+      } else {
+        div.style.display = 'none';
+      }
+    }
+    function hover_show(element) {
+      var div = document.getElementById(element);
+      div.style.display = 'inline-block';
+      div.style.visibility = 'visible';
+    }
+    function hover_vanish(element) {
+      var div = document.getElementById(element);
+      div.style.display = 'none';
+    }
+  </script>
+
+  <div style="clear:both"></div>
+  <div class="ngrams_query_section">
+    <form id="query" action="/ngrams/graph" method="get" name="input">
+      <div class="query_graphthese_line">
+        <div class="graph_instruction">Graph these comma-separated phrases:</div>
+        <div class="input_qm_checkbox">
+            <input class="query" type="text"
+                   name="content"
+                   size="60"
+                   value="algol,fortran,lisp"
+                   style="padding-right: 20"
+                   maxlength=240 />
+            <a class="options"
+               onmouseover="javascript:hover_show('options_tip')"
+               onmouseout="javascript:hover_vanish('options_tip')"
+               href="javascript:toggle_help('samples', 'options_tip')">
+            </a>
+            <div id="options_tip" class="tip" style="display:none">
+              Show search options
+              <span class="pointer"></span>
+            </div>
+            <div id="samples" class="bubble" style="display:none">
+              <p>
+                <b>Part-of-speech tags:</b> cook<b>_VERB</b>, <b>_DET_</b> President</b><br/>
+                <b>Wildcards:</b> King of <b>*</b>, best <b>*_NOUN</b><br/>
+                <b>Inflections:</b> shook<b>_INF</b> drive<b>_VERB_INF</b><br>
+                <b>Arithmetic compositions: (</b>color <b>/(</b>color <b>+</b> colour<b>))</b><br/>
+                <b>Corpus selection:</b> I want<b>:eng_2012</b><br/>
+             </p>
+             <p class="links"><a href="/ngrams/info">Complete list of options</a></p>
+             <span class="pointer"/>
+             </div>
+          <input type="checkbox" class="checkbox" name="case_insensitive"
+                  checked="checked" 
+                 style="vertical-align:middle">
+          case-insensitive
+        </div>
+        
+        <div class="social_media_section" id="social_media_section">
+          
+          <div class="gplus_button">
+            <g:plus id="ngrams_googleplus_share"
+                    action="share" href="https://books.google.com/ngrams/graph?content=algol%2Cfortran%2Clisp&amp;case_insensitive=on&amp;year_start=1950&amp;year_end=2008&amp;corpus=21&amp;smoothing=1&amp;share=&amp;"
+                    height="20" annotation="bubble">
+            </g:plus>
+          </div>
+          
+          <div class="custom_tweet_button" id="custom_tweet_button">
+            <a style="text-decoration:none"
+               href="https://twitter.com/share?text=Google Ngram Viewer: &#39;[Algol]&#39;, &#39;[ALGOL]&#39;, &#39;[algol]&#39;, &#39;[FORTRAN]&#39;, &#39;[Fortran]&#39;, &#39;[fortran]&#39;, &#39;[LISP]&#39;, &#39;[Lisp]&#39;, &#39;[lisp]&#39;, 1950-2008 in Spanish."
+               target="_blank">
+              <span class="label">Tweet</span>
+            </a>
+          </div><br>
+          <a href="javascript:toggle_textarea('share_url')">Embed Chart</a>
+          <div style="clear:both"></div>
+          <div id="share_url" class="bubble" style="display:none">
+            <i>Paste HTML to embed in website:</i><br>
+            <textarea rows="5" id="share_url_text">&lt;iframe name=&quot;ngram_chart&quot; src=&quot;https://books.google.com/ngrams/interactive_chart?content=algol%2Cfortran%2Clisp&amp;case_insensitive=on&amp;year_start=1950&amp;year_end=2008&amp;corpus=21&amp;smoothing=1&amp;share=&amp;direct_url=t4%3B%2Calgol%3B%2Cc0%3B%2Cs0%3B%3BAlgol%3B%2Cc0%3B%3BALGOL%3B%2Cc0%3B%3Balgol%3B%2Cc0%3B.t4%3B%2Cfortran%3B%2Cc0%3B%2Cs0%3B%3BFORTRAN%3B%2Cc0%3B%3BFortran%3B%2Cc0%3B%3Bfortran%3B%2Cc0%3B.t4%3B%2Clisp%3B%2Cc0%3B%2Cs0%3B%3BLISP%3B%2Cc0%3B%3BLisp%3B%2Cc0%3B%3Blisp%3B%2Cc0&quot; width=900 height=500 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no&gt;&lt;/iframe&gt;</textarea>
+          </div>
+        </div>
+        
+      </div>
+      <div class="query_dcs_line">between
+        <input class="query" type="text"
+               name="year_start"
+               id="year"
+               size="2"
+               value="1950"
+               maxlength=4 />
+        and
+        <input class="query" type="text"
+               name="year_end"
+               id="year"
+               size="2"
+               value="2008"
+               maxlength=4 />
+        from the corpus
+        <select name="corpus">
+          
+          <option value="17"
+                  >
+            American English</option>
+          
+          <option value="18"
+                  >
+            British English</option>
+          
+          <option value="23"
+                  >
+            Chinese (simplified)</option>
+          
+          <option value="15"
+                  >
+            English</option>
+          
+          <option value="16"
+                  >
+            English Fiction</option>
+          
+          <option value="19"
+                  >
+            French</option>
+          
+          <option value="20"
+                  >
+            German</option>
+          
+          <option value="24"
+                  >
+            Hebrew</option>
+          
+          <option value="22"
+                  >
+            Italian</option>
+          
+          <option value="25"
+                  >
+            Russian</option>
+          
+          <option value="21"
+                  
+                  selected>
+            Spanish</option>
+          
+          <option value="5"
+                  >
+            American English (2009)</option>
+          
+          <option value="6"
+                  >
+            British English (2009)</option>
+          
+          <option value="11"
+                  >
+            Chinese (simplified) (2009)</option>
+          
+          <option value="0"
+                  >
+            English (2009)</option>
+          
+          <option value="4"
+                  >
+            English Fiction (2009)</option>
+          
+          <option value="1"
+                  >
+            English One Million (2009)</option>
+          
+          <option value="7"
+                  >
+            French (2009)</option>
+          
+          <option value="8"
+                  >
+            German (2009)</option>
+          
+          <option value="9"
+                  >
+            Hebrew (2009)</option>
+          
+          <option value="12"
+                  >
+            Russian (2009)</option>
+          
+          <option value="10"
+                  >
+            Spanish (2009)</option>
+          
+        </select>
+        with smoothing of
+        <select name="smoothing">
+          
+          <option value="0"
+                  >
+            0</option>
+          
+          <option value="1"
+                  
+                  selected>
+            1</option>
+          
+          <option value="2"
+                  >
+            2</option>
+          
+          <option value="3"
+                  >
+            3</option>
+          
+          <option value="4"
+                  >
+            4</option>
+          
+          <option value="5"
+                  >
+            5</option>
+          
+          <option value="6"
+                  >
+            6</option>
+          
+          <option value="7"
+                  >
+            7</option>
+          
+          <option value="8"
+                  >
+            8</option>
+          
+          <option value="9"
+                  >
+            9</option>
+          
+          <option value="10"
+                  >
+            10</option>
+          
+          <option value="20"
+                  >
+            20</option>
+          
+          <option value="30"
+                  >
+            30</option>
+          
+          <option value="40"
+                  >
+            40</option>
+          
+          <option value="50"
+                  >
+            50</option>
+          
+        </select>.&nbsp;&nbsp;
+        
+        <input type="hidden" name="share" value="" >
+        
+        <input class="kd_submit" type="submit" value="Search lots of books" />
+      </div>
+    </form>
+  </div> 
+<script type="text/javascript">
+  document.forms['input'].elements['content'].focus();
+</script>
+
+
+<div style="clear:both"></div>
+<div class="ngrams_chart_section">
+  <center>
+
+    
+   
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+   
+  </center>
+</div> 
+
+
+<script type="text/javascript">CLOSURE_NO_DEPS = true;</script>
+<script src="/ngrams/ngram-viewer-deps.js"></script>
+<script type="text/javascript">
+  var data = [{"ngram": "algol (All)", "type": "CASE_INSENSITIVE", "timeseries": [5.33069171027023e-08, 4.588723815738642e-08, 3.0468690385513732e-08, 1.9061757209707746e-08, 2.3597703272907701e-08, 2.9897932426100247e-08, 3.8136195534832495e-08, 3.4702734241776056e-08, 3.2321982127806833e-08, 2.6706184116006188e-08, 2.6489868483932831e-08, 2.6910861502157012e-08, 2.8680758582903348e-08, 2.634289538357611e-08, 4.5156077654873172e-08, 5.2618454593478248e-08, 6.9535707340288383e-08, 7.7741684719375329e-08, 8.4968169611343569e-08, 8.9791403423689076e-08, 8.0334012997340678e-08, 7.7386569226807949e-08, 7.0158576133868194e-08, 7.3896807932053818e-08, 7.4924576913086113e-08, 7.0799162236549279e-08, 6.3961664409362129e-08, 7.5976925639764659e-08, 8.2195482864477754e-08, 6.7864243780135767e-08, 4.5981419745840434e-08, 3.7830479304723497e-08, 4.5036772644557743e-08, 5.352629051103009e-08, 6.9911811710158617e-08, 6.6892810883049478e-08, 6.2375128950797887e-08, 4.9625523838396176e-08, 5.2499440128528363e-08, 4.3801228348054146e-08, 4.1425511039990447e-08, 4.8774217942249003e-08, 4.9522089188662001e-08, 6.2533173528223074e-08, 4.9042854111114302e-08, 5.0551114442557818e-08, 8.1889292791181845e-08, 9.1007022510562294e-08, 9.650484056322739e-08, 4.6273347820147137e-08, 4.148866376378161e-08, 3.0184494607491771e-08, 3.1363530661465688e-08, 4.1624514575862762e-08, 5.3430475969544019e-08, 5.0724740704074137e-08, 4.3062859352479187e-08, 4.8764523530309134e-08, 5.6341438625651108e-08], "parent": ""}, {"ngram": "Algol", "type": "EXPANSION", "parent": "algol (All)", "timeseries": [4.2925970333840269e-08, 3.7488136446957775e-08, 2.6712938527850838e-08, 1.3953154187618111e-08, 1.7937765347160923e-08, 2.2587000714224814e-08, 3.3002468905844275e-08, 2.8417763549744752e-08, 2.6623667418827306e-08, 1.8953839979000502e-08, 1.9243463711404729e-08, 1.8195327614970818e-08, 1.9177501956827807e-08, 1.4831801860755908e-08, 2.8702721384850822e-08, 2.9019611010501951e-08, 4.5278807074093187e-08, 4.554985189031413e-08, 5.0682891365264972e-08, 4.7774879163853257e-08, 4.041891206914746e-08, 3.9909460033034826e-08, 3.475806664710035e-08, 3.9856464203088158e-08, 4.0994771429344233e-08, 3.6437049525754141e-08, 3.5639972158681608e-08, 4.1771758200563149e-08, 5.1937323775064215e-08, 4.1726043657301183e-08, 3.2085995490168294e-08, 2.5528618034324307e-08, 3.1265656730283808e-08, 3.0962112281448149e-08, 4.6368030008162954e-08, 4.119961912370703e-08, 3.8139731965240266e-08, 2.5090409749850551e-08, 2.5673160782465249e-08, 2.4054766475008666e-08, 2.7535016637140568e-08, 3.6131334960979679e-08, 3.7763381162866004e-08, 4.7329779206961575e-08, 4.003612256534931e-08, 3.8560761102720185e-08, 1.9435478411840752e-08, 2.2847778780032968e-08, 3.0304660114666149e-08, 3.051820485211465e-08, 2.9355713711728033e-08, 1.9660541195065662e-08, 2.3896228551478771e-08, 3.4644453972276779e-08, 4.1770782388539374e-08, 3.6780971749787263e-08, 2.838746304689721e-08, 3.3854081612124297e-08, 3.9977685162284615e-08]}, {"ngram": "ALGOL", "type": "EXPANSION", "parent": "algol (All)", "timeseries": [0.0, 0.0, 0.0, 0.0, 1.3532036232296225e-09, 3.8363405785446503e-09, 3.8363405785446503e-09, 5.0279765536250425e-09, 2.5448395983100149e-09, 4.0853616785814966e-09, 3.6806101869994259e-09, 7.6670045127495233e-09, 8.0209838770883835e-09, 1.0095548101200317e-08, 1.3698512250452191e-08, 1.875165563565891e-08, 1.8987839744966095e-08, 2.2781404318550358e-08, 2.2305555032649711e-08, 2.9701444859142612e-08, 2.9888868269267732e-08, 3.0359811849696903e-08, 2.6316450056166712e-08, 2.6737367283165742e-08, 2.7208526394891425e-08, 2.5833387577260208e-08, 1.7347638288830087e-08, 2.3636522368993457e-08, 2.3669116148520668e-08, 2.2432736557220778e-08, 1.1585523059428246e-08, 9.7726398825178275e-09, 1.1331091620547795e-08, 1.9520984236483702e-08, 2.1142907868920702e-08, 2.3032226200333145e-08, 1.7240825656017478e-08, 1.6090041891440403e-08, 1.8740178002000601e-08, 1.5859558555320064e-08, 1.1789073643223938e-08, 9.170279572738119e-09, 8.5777286754999214e-09, 1.1571248996015507e-08, 7.0424141333328789e-09, 8.9466910176601768e-09, 8.5722545358398374e-09, 1.3399968542178916e-08, 1.1217406559183019e-08, 1.0732297421138052e-08, 7.2121135730185415e-09, 6.9565843456113425e-09, 3.9457381806329295e-09, 3.8961748642189304e-09, 5.1195448621162614e-09, 7.6686907194793239e-09, 8.3091111768851533e-09, 1.0257902675429401e-08, 1.1305555602802997e-08]}, {"ngram": "algol", "type": "EXPANSION", "parent": "algol (All)", "timeseries": [1.0380946768862032e-08, 8.3991017104286438e-09, 3.7557518576628963e-09, 5.1086030220896346e-09, 4.3067343025171567e-09, 3.4745911333307808e-09, 1.2973860504435681e-09, 1.2569941384062606e-09, 3.1534751106695089e-09, 3.6669824584241914e-09, 3.5657945855286735e-09, 1.0485293744366686e-09, 1.4822727489871568e-09, 1.4155454216198866e-09, 2.7548440195701573e-09, 4.8471879473173845e-09, 5.2690605212291075e-09, 9.4104285105108456e-09, 1.1979723213428883e-08, 1.2315079400693207e-08, 1.0026232658925474e-08, 7.1172973440762161e-09, 9.0840594306011245e-09, 7.3029764457999136e-09, 6.7212790888504514e-09, 8.5287251335349392e-09, 1.0974053961850435e-08, 1.0568645070208049e-08, 6.5890429408928713e-09, 3.7054635656138166e-09, 2.3099011962438945e-09, 2.5292213878813641e-09, 2.4400242937261396e-09, 3.043193993098233e-09, 2.4008738330749679e-09, 2.6609655590092984e-09, 6.9945713295401406e-09, 8.4450721971052189e-09, 8.0861013440625129e-09, 3.8869033177254169e-09, 2.1014207596259382e-09, 3.4726034085312088e-09, 3.1809793502960795e-09, 3.632145325245991e-09, 1.9643174124321186e-09, 3.0436623221774539e-09, 5.3881559843501257e-08, 5.4759275188350408e-08, 5.4982773889378223e-08, 5.0228455468944349e-09, 4.9208364790350361e-09, 3.5673690668147628e-09, 3.521563929353988e-09, 3.0838857393670574e-09, 6.5401487188883794e-09, 6.2750782348075518e-09, 6.3662851286968207e-09, 4.652539242755438e-09, 5.0581978605634959e-09]}, {"ngram": "fortran (All)", "type": "CASE_INSENSITIVE", "timeseries": [0.0, 6.6531172423130629e-09, 7.3795809463206297e-09, 7.3795809463206297e-09, 9.5222874770447187e-09, 1.1278960654337311e-08, 1.6986849926681202e-08, 8.8272360532215544e-09, 1.5154527410743412e-08, 1.0473652833908886e-08, 1.1442508940362472e-08, 2.0072556246771473e-08, 4.6989438229338987e-08, 6.5521044996981942e-08, 1.083490021406656e-07, 2.1675264028075958e-07, 2.949794525678821e-07, 3.266175846080207e-07, 3.261777496987861e-07, 3.4505600539821063e-07, 3.5847949468130003e-07, 3.3365562076189314e-07, 3.0118679402354093e-07, 4.2439610907033892e-07, 4.2734510182403557e-07, 4.1899664982025797e-07, 2.6196977653825115e-07, 2.5961463305061255e-07, 2.9370419000566511e-07, 3.0517719299775575e-07, 2.7599372594740618e-07, 2.5626939444597002e-07, 2.7662873354946288e-07, 3.0827095602129851e-07, 3.3780286375536172e-07, 3.130654656994617e-07, 2.8065887747175111e-07, 2.5478423075024165e-07, 2.3683783919222398e-07, 1.988848052913994e-07, 1.5057586829255362e-07, 1.5075043672633606e-07, 1.5785621609865077e-07, 1.5713251511062509e-07, 1.2702608250444078e-07, 1.2013518146947177e-07, 1.219931296721673e-07, 1.3495931113401599e-07, 1.1820234776157197e-07, 1.117730169900947e-07, 9.7498479586140732e-08, 8.9504361514928605e-08, 6.9954683120284259e-08, 9.2558810652991014e-08, 1.4511554928079801e-07, 1.5135105813079972e-07, 1.2206769831972036e-07, 8.6115281572318736e-08, 8.7879784782529669e-08], "parent": ""}, {"ngram": "FORTRAN", "type": "EXPANSION", "parent": "fortran (All)", "timeseries": [0.0, 1.4784705311872888e-09, 1.4784705311872888e-09, 1.4784705311872888e-09, 1.3532036232296225e-09, 1.9739878620583795e-09, 1.9739878620583795e-09, 1.2569941384062606e-09, 4.4121077162155115e-09, 5.4391224117248766e-09, 6.4079785181784627e-09, 1.9574256956052711e-08, 3.3229628530288359e-08, 4.5673404021802831e-08, 7.024948089906502e-08, 1.6455827752300442e-07, 2.039194744914615e-07, 2.0582496536765879e-07, 1.9736233506743398e-07, 2.1217310101443823e-07, 2.2420722700644546e-07, 1.6456369185865091e-07, 1.4103488391962551e-07, 2.3229364861284316e-07, 2.5107286205638957e-07, 2.5637817676245806e-07, 1.513771650252238e-07, 1.6159712383038519e-07, 1.9219003396149978e-07, 2.0169202249083659e-07, 1.8035250093362265e-07, 1.6049531363175143e-07, 1.5962518773449119e-07, 1.7735328583512455e-07, 2.0350259433143947e-07, 2.0832323836354286e-07, 1.9254783959847069e-07, 1.701658523719137e-07, 1.523879381200762e-07, 1.2272411235395944e-07, 7.8409136960999604e-08, 7.694546629484951e-08, 8.0281154168915236e-08, 8.2208501339664508e-08, 5.7988312818224585e-08, 6.0766871238608175e-08, 6.3716592298609001e-08, 8.1270525716566525e-08, 6.8034012201678706e-08, 6.7017616345310671e-08, 5.0933525841401206e-08, 4.4170247903707605e-08, 3.0255661087608132e-08, 6.1011646697769109e-08, 7.2283191580406011e-08, 7.6076156337497494e-08, 4.479856959468028e-08, 4.4992518155595462e-08, 4.660213193119489e-08]}, {"ngram": "Fortran", "type": "EXPANSION", "parent": "fortran (All)", "timeseries": [0.0, 4.4354114455321296e-09, 5.1618751495396964e-09, 5.1618751495396964e-09, 8.1690838538150956e-09, 9.3049727922789316e-09, 1.5012862064622823e-08, 7.5702419148152931e-09, 1.0742419694527902e-08, 5.0345304221840097e-09, 5.0345304221840097e-09, 4.9829929071876222e-10, 1.3759809699050626e-08, 1.9847640975179104e-08, 3.7206655534305355e-08, 5.0433041446732808e-08, 8.1732235202025549e-08, 1.0729866536015227e-07, 1.1360119837415066e-07, 1.2360107840928927e-07, 1.244638336099039e-07, 1.5184381159845847e-07, 1.402814433504318e-07, 1.7605425739475322e-07, 1.6707505305172768e-07, 1.5482067775944111e-07, 1.0245492868913668e-07, 9.1686933008835084e-08, 9.7020439682182769e-08, 9.8825627977324374e-08, 8.7909964937201338e-08, 8.5964326027957824e-08, 1.0534090932878826e-07, 1.2154930099465369e-07, 1.2594057115696464e-07, 9.8503628957284192e-08, 8.2852598855727891e-08, 7.9146308470020202e-08, 8.0194337688984277e-08, 6.9644394547670644e-08, 6.5856834652322505e-08, 6.7560952980253816e-08, 7.3232871026599852e-08, 7.2203462764264259e-08, 6.5084690229847794e-08, 5.5329447690155575e-08, 5.1453061663172171e-08, 4.6085408674419646e-08, 4.2674614064708294e-08, 3.9637788754968519e-08, 4.273433518164893e-08, 4.2471639242573169e-08, 3.7033714761491865e-08, 2.9995506523050608e-08, 7.1043147068886966e-08, 7.3212264695143858e-08, 7.4986608922245068e-08, 3.7402639208039545e-08, 3.7137924735475281e-08]}, {"ngram": "fortran", "type": "EXPANSION", "parent": "fortran (All)", "timeseries": [0.0, 7.3923526559364439e-10, 7.3923526559364439e-10, 7.3923526559364439e-10, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 8.928657072952243e-10, 1.7613213110223569e-09, 9.3277428743950476e-09, 1.3493953880209611e-08, 1.5214216257201468e-08, 9.2818259744831266e-09, 9.8084340649506885e-09, 1.7248117304783744e-08, 1.9870466753483622e-08, 1.6048203062742534e-08, 9.1971867159183294e-09, 7.7977952983587784e-09, 8.1376828238906764e-09, 6.330576211392251e-09, 4.4937163619825542e-09, 4.6595425295947734e-09, 7.7312600765822026e-09, 9.8097547862607826e-09, 1.166263648618345e-08, 9.3683691915202871e-09, 8.3596982669575937e-09, 6.2385983786346815e-09, 5.2584390175525186e-09, 5.4720699083077307e-09, 4.2555633831635004e-09, 6.5162983897693039e-09, 6.3098966792315041e-09, 6.2440174512327457e-09, 4.3421909031356636e-09, 2.7205510066963257e-09, 3.9530794563683953e-09, 4.0388625407080285e-09, 6.8234757103861438e-09, 7.6033767430298358e-09, 7.4937214951849764e-09, 5.117611889815521e-09, 3.8306185630906002e-09, 2.8624743686478382e-09, 2.665307271184266e-09, 1.5516574321713013e-09, 1.7892106315050189e-09, 2.0626370981583855e-09, 2.2825198027949987e-09, 3.7201242086837283e-09, 4.1397281158594978e-09]}, {"ngram": "lisp (All)", "type": "CASE_INSENSITIVE", "timeseries": [2.4730617553814227e-09, 2.3879431025145928e-09, 3.1144068065221595e-09, 3.6429040524884235e-09, 5.6100760333540238e-09, 6.7459649718178598e-09, 4.5687598889306473e-09, 2.4985625420489064e-09, 3.1534751106695089e-09, 3.6669824584241914e-09, 3.5657945855286735e-09, 2.045127955874193e-09, 2.4788713304246812e-09, 3.3487334016868431e-09, 1.52986873909929e-08, 1.9127942526194392e-08, 3.2855902406166613e-08, 2.0330939561515514e-08, 1.7280245789841331e-08, 4.5984487329064905e-09, 7.3686788522782836e-09, 6.4142822164825475e-09, 5.0273304778395795e-09, 2.5408790627068356e-09, 2.8285919532559473e-09, 2.8358677628403939e-09, 4.9349108503330781e-09, 4.9034912056692787e-09, 4.5122064973313059e-09, 3.0044433977730973e-09, 9.5915848966991283e-09, 1.9446820838838381e-08, 2.374433762571589e-08, 2.8402222111238253e-08, 4.8619069307568687e-08, 5.474455868255864e-08, 6.377996044267438e-08, 1.0623057692763875e-07, 2.7492523576218747e-07, 2.5968256078812146e-07, 2.0011146073528607e-07, 4.1732094520815125e-08, 5.6528494033851004e-08, 6.2156280344893844e-08, 6.3534044839978294e-08, 7.1232231761234971e-08, 6.5217141927605596e-08, 5.3313477132999054e-08, 3.2829933142390168e-08, 3.4260715893926395e-08, 3.2859438355477742e-08, 3.1018315841772434e-08, 2.0636144422899367e-08, 4.3560091977923328e-08, 4.8750524654176772e-08, 5.8381960747292773e-08, 3.8188241161899818e-08, 5.8924655821357419e-08, 6.750033909597164e-08], "parent": ""}, {"ngram": "LISP", "type": "EXPANSION", "parent": "lisp (All)", "timeseries": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.6829469931471601e-10, 9.8433844408774007e-09, 1.1146067883475533e-08, 2.5365533525463963e-08, 1.5990443783901281e-08, 1.5550666384219387e-08, 2.0884295034070042e-09, 3.2853619824635416e-09, 2.4224559395473002e-09, 1.1969324790565377e-09, 3.5268421516576609e-10, 3.5268421516576609e-10, 1.4240552070887702e-09, 2.4735767508351123e-09, 2.8161463161424649e-09, 2.0848184660119764e-09, 1.3309369162328721e-09, 6.6995049878097275e-09, 1.5345472004213434e-08, 1.7935875007424329e-08, 2.2042925114836482e-08, 3.0970799850630705e-08, 3.6879120202115701e-08, 3.9320408262710771e-08, 8.7442603084279355e-08, 2.375307974015565e-07, 2.2949077305156607e-07, 1.7158127540994883e-07, 2.3842527359837124e-08, 2.9545180524337411e-08, 3.449601789403308e-08, 3.0072114280225527e-08, 4.548553593034891e-08, 3.974346659182023e-08, 3.9888414349320556e-08, 1.7370273219796672e-08, 1.4101535050770053e-08, 1.3742840643260479e-08, 1.5379299315535871e-08, 1.3888483548403959e-08, 3.3455013278190414e-08, 3.6566911276736391e-08, 4.3594170051619585e-08, 2.2854195573055829e-08, 2.903719279837939e-08, 2.9151206781818928e-08]}, {"ngram": "Lisp", "type": "EXPANSION", "parent": "lisp (All)", "timeseries": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.3392985979502707e-09, 1.3392985979502707e-09, 1.3392985979502707e-09, 0.0, 4.3145302145812064e-10, 4.3145302145812064e-10, 4.3145302145812064e-10, 0.0, 0.0, 3.5268421516576609e-10, 1.4118125557516237e-09, 1.4118125557516237e-09, 1.4096797803138845e-09, 3.5055143972802699e-10, 3.5055143972802699e-10, 0.0, 3.1728542015940775e-10, 1.5567350741818586e-09, 3.6177433271333825e-09, 4.5277313750110198e-09, 1.5828001502053251e-08, 1.63396002654063e-08, 2.2701525992374627e-08, 1.5024928264513921e-08, 3.3631392781785507e-08, 2.7360772166436693e-08, 2.5905571465756339e-08, 1.3348870897544884e-08, 2.1952396937289603e-08, 2.4013214527940363e-08, 3.051155298787004e-08, 2.3583647035252397e-08, 2.2393862468087871e-08, 9.2238388778772186e-09, 1.1488758981196648e-08, 1.4105364283996854e-08, 1.5042612488969098e-08, 1.1565031302988396e-08, 6.0432296204263975e-09, 8.1100533696106449e-09, 8.6445591425861803e-09, 1.0471819559635756e-08, 1.1202460588795779e-08, 2.5335801308775292e-08, 3.3202174343216484e-08]}, {"ngram": "lisp", "type": "EXPANSION", "parent": "lisp (All)", "timeseries": [2.4730617553814227e-09, 2.3879431025145928e-09, 3.1144068065221595e-09, 3.6429040524884235e-09, 5.6100760333540238e-09, 6.7459649718178598e-09, 4.5687598889306473e-09, 2.4985625420489064e-09, 3.1534751106695089e-09, 3.6669824584241914e-09, 3.5657945855286735e-09, 2.045127955874193e-09, 2.4788713304246812e-09, 2.880438702372127e-09, 4.1160043521652296e-09, 6.6425760447685889e-09, 6.151070282752376e-09, 4.3404957776142323e-09, 1.2981263841638224e-09, 2.0785662080413658e-09, 3.6518638483566215e-09, 3.9918262769352469e-09, 3.8303979987830417e-09, 1.8355106323753034e-09, 1.0640951823385574e-09, 0.0, 1.051654319184081e-09, 1.7367934497987865e-09, 2.0768365915913023e-09, 1.673506481540225e-09, 2.5747944887299923e-09, 2.5446137604430894e-09, 2.1907192911581794e-09, 1.8315656213907516e-09, 1.8202679548847318e-09, 1.5258382150366383e-09, 1.7580261875889864e-09, 3.7630455788454737e-09, 3.7630455788454737e-09, 2.8310155701187036e-09, 2.6246138595809043e-09, 4.5406962634331194e-09, 5.0309165722239868e-09, 3.6470479229204025e-09, 2.9503775718827305e-09, 2.1630487956336708e-09, 3.0798128676975032e-09, 4.2012239058012808e-09, 3.9709009413968488e-09, 6.0538165591594861e-09, 4.0739852232481626e-09, 4.0739852232481626e-09, 7.0443125406901197e-10, 1.9950253301222651e-09, 3.5390542348541962e-09, 4.3159711360374331e-09, 4.1315850000482141e-09, 4.5516617142027371e-09, 5.1469579709362279e-09]}];
+  if (data.length > 0) {
+    ngrams.drawD3Chart(data, 1950, 2008, 1.0, "main");
+  }
+</script>
+ 
+ 
+
+ 
+<blockquote>
+  Search in Google Books:<br><br>
+  <table width=900>
+      
+    <tr>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="algol"&tbm=bks&tbs=cdr:1,cd_min:1950,cd_max:1958&lr=lang_es'>
+            
+              1950 - 1958
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="algol"&tbm=bks&tbs=cdr:1,cd_min:1959,cd_max:1968&lr=lang_es'>
+            
+              1959 - 1968
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="algol"&tbm=bks&tbs=cdr:1,cd_min:1969,cd_max:1973&lr=lang_es'>
+            
+              1969 - 1973
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="algol"&tbm=bks&tbs=cdr:1,cd_min:1974,cd_max:1997&lr=lang_es'>
+            
+              1974 - 1997
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="algol"&tbm=bks&tbs=cdr:1,cd_min:1998,cd_max:2006&lr=lang_es'>
+            
+              1998 - 2006
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="algol"&tbm=bks&lr=lang_es'>
+            algol
+          </a>
+        </font>
+      </td>
+      <td align="left">
+        <font size=-1>
+          Spanish
+        </font>
+      </td>
+    </tr>
+      
+    <tr>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="fortran"&tbm=bks&tbs=cdr:1,cd_min:1950,cd_max:1967&lr=lang_es'>
+            
+              1950 - 1967
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="fortran"&tbm=bks&tbs=cdr:1,cd_min:1968,cd_max:1971&lr=lang_es'>
+            
+              1968 - 1971
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="fortran"&tbm=bks&tbs=cdr:1,cd_min:1972,cd_max:1972&lr=lang_es'>
+            
+              1972
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="fortran"&tbm=bks&tbs=cdr:1,cd_min:1973,cd_max:1995&lr=lang_es'>
+            
+              1973 - 1995
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="fortran"&tbm=bks&tbs=cdr:1,cd_min:1996,cd_max:2008&lr=lang_es'>
+            
+              1996 - 2008
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="fortran"&tbm=bks&lr=lang_es'>
+            fortran
+          </a>
+        </font>
+      </td>
+      <td align="left">
+        <font size=-1>
+          Spanish
+        </font>
+      </td>
+    </tr>
+      
+    <tr>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="lisp"&tbm=bks&tbs=cdr:1,cd_min:1950,cd_max:1954&lr=lang_es'>
+            
+              1950 - 1954
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="lisp"&tbm=bks&tbs=cdr:1,cd_min:1955,cd_max:1964&lr=lang_es'>
+            
+              1955 - 1964
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="lisp"&tbm=bks&tbs=cdr:1,cd_min:1965,cd_max:1967&lr=lang_es'>
+            
+              1965 - 1967
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="lisp"&tbm=bks&tbs=cdr:1,cd_min:1968,cd_max:2001&lr=lang_es'>
+            
+              1968 - 2001
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="lisp"&tbm=bks&tbs=cdr:1,cd_min:2002,cd_max:2008&lr=lang_es'>
+            
+              2002 - 2008
+            
+          </a>
+        </font>
+      </td>
+      
+      <td>
+        <font size=-1>
+          <a href='http://www.google.com/search?q="lisp"&tbm=bks&lr=lang_es'>
+            lisp
+          </a>
+        </font>
+      </td>
+      <td align="left">
+        <font size=-1>
+          Spanish
+        </font>
+      </td>
+    </tr>
+    
+  </table>
+  <p>
+    
+  </p>
+</blockquote>
+ 
+
+<center id="datasets-announcement">
+  Run your own experiment!  Raw data is available for download
+  <a href="/ngrams/datasets">here</a>.
+</center>
+
+
+
+    <center>
+    <div id="about">&copy; 2013 Google -
+      <a href="http://www.google.com/intl/en/policies/">Privacy & Terms</a> -
+      <a href="http://www.google.com/about.html">About Google</a> -
+        <a href="http://www.google.com/intl/en/googlebooks/about.html">About
+        Google Books</a> -
+      <a href="/ngrams/info">About Ngram Viewer</a>
+    </div>
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-45098938-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    </center>
+
+  </body>
+
+</html>
