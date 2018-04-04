@@ -20,7 +20,7 @@ if __name__ == '__main__':
 
     sns.set_style("darkgrid")
     fig, ax = plt.subplots(1, 1)
-    ax.set_xticklabels(['' if i % 5 else str(i) for i in range(1950,2010)])
+    ax.set_xticklabels(['' if int(i) % 5 else i for i in df.T.index.tolist()])
 
     plt.plot(df.T)
     plt.savefig('/tmp/lines.png')
