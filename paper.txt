@@ -1,0 +1,8 @@
+Chuck McCallum
+Addition and removal for the CS-121 Reading list
+
+I would propose the addition of McCarthy's "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I" and the reluctant removal of the "Report on the Algorithmic Language ALGOL 60".
+
+Strictly speaking, judging whether a given paper is a classic should not depend on what other papers are on the syllabus, but the papers that are most memorable may be those where the author is represented more than once in our syllabus: Alan Turing, Claude Shannon, Ivan Sutherland, and I think it would be fair to add John McCarthy to their company. I wouldn't want the class to become just a survey of personalities, but I think we have gotten more out of some individual papers because of the connections between then. We might get a sense of how a researcher continued to explore a single theme, as I think Turing does in both papers by putting forward a challenging simplification and following it to its conclusion. Or, as in the case of Sutherland's shift from graphics to processor design, we get a sense of how concrete challenges in one domain led to the opening of some other field of research.
+
+With McCarthy, I think that having a sense of what he was able to accomplish with very simple machinery makes the proposals in "A Proposal for the Dartmouth Research Project on Artificial Intelligence" less incredible.
