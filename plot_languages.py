@@ -2,7 +2,8 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pylab
-import matplotlib.ticker
+
+from matplotlib.ticker import FormatStrFormatter
 
 import sys
 import pandas
@@ -22,11 +23,15 @@ if __name__ == '__main__':
     every_fifth = ['' if int(i) % 5 else i for i in df.T.index.tolist()]
     # ax.set_xticklabels(['' if int(i) % 5 else i for i in df.T.index.tolist()])
 
+    f = plt.figure(figsize=(6, 8))
     filters = ['American English', 'British English', 'Spanish',
                'French', 'German', 'Italian']
     for (i, filter) in enumerate(filters):
-        ax = plt.subplot(len(filters), 1, i+1)
+        ax = f.add_subplot(len(filters), 1, i+1)
         ax.set_xticklabels(every_fifth)
+        ax.yaxis.set_major_formatter(FormatStrFormatter('%.2e'))
+        plt.title(filter)
         plt.plot(df.loc[filter].T)
 
+    plt.subplots_adjust(hspace=0.7)
     plt.savefig('/tmp/lines.svg')
