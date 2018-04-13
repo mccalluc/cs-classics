@@ -15,6 +15,6 @@ if __name__ == '__main__':
             html = f.read()
             d = parse(html)
             if first:
-                print('\t'.join([''] + list(d)))
+                print('\t'.join([path] + list(d)))
                 first = False
             print('\t'.join([path] + list(d.values())))
