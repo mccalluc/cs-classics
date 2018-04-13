@@ -9,7 +9,8 @@ import re
 from cycler import cycler
 
 if __name__ == '__main__':
-    dfs = []
+    dfs = {}
+    for file in sys.argv[1:]
     df = pandas.read_csv(sys.argv[1], sep='\t')
     dfs.append(df.set_index(['file']))
     df = pandas.read_csv(sys.argv[2], sep='\t')
