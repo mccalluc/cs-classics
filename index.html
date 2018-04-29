@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chuck McCallum: Addition and removal for the CS-121 reading list</title>
+  <style>
+    img {
+      width: 4in;
+    }
+  </style>
+</head>
+<body>
+<p>Chuck McCallum (mccallucc@gmail.com)</p>
+<p>Addition and removal for the CS-121 reading list</p>
+<p>I will argue that McCarthy's "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I"
+should be added to the list, and, with some reluctance, that Nauer's "Report on the Algorithmic Language ALGOL 60"
+could be removed. At a high level, comparisons across bibliographic databases suggest that LISP has on on-going relevance
+that ALGOL does not. The case becomes stronger when we look at a few key ideas that McCarthy introduced, and latter
+papers that make particular reference to McCarthy's 1960 work.</p>
+
+<h2>Bibliometrics</h2>
+
+<p>Checking a citation index like <cite>Web of Science</cite> seems like a logical first step, and although the results are
+striking, I don't think they are a good representation of relative importance of these papers.</p>
+
+<figure>
+<img src="charts/paper-vs-language.svg">
+<figcaption>Figure 1: Results from Web of Science (2 year moving average, limited to CS categories)</figcaption>
+</figure>
+
+<p>Since the 1980s, (McCarthy 1960) has averaged at or above 100 citations per year,
+while for (Backus 1959) there are scattered references, and none for (Nauer 1963).
+On the other hand, simply searching for "FORTRAN", "LISP", and "ALGOL" in article
+titles might give us a totally different idea of which ideas have remained influential.
+(I limited the categories searched to CS because there were a number of astronomy papers
+  about the start Algol, and I didn't want that to skew the results.)</p>
+
+<p>Other databases can give us an idea of how these terms have shown up outside the journal literature.
+WorldCat began as a shared cataloging platform for libraries, and more recently has added an article index.</p>
+
+<figure>
+<img src="charts/worldcat-english-search-media.svg">
+<figcaption>Figure 2: Results from WorldCat (2 year moving average)</figcaption>
+</figure>
+
+<p>The WorldCat article title search results are roughly similar to Web of Science, though there is
+  an earlier rise for "FORTRAN". I am not sure why this is: WorldCat's depth of coverage
+  during certain intervals may simply be different, or the category filter in Web of Science might make the difference.
+  On the other hand,
+the results for books are clear, and markedly different than those for articles.
+This suggests that while there was some early interest in ALGOL, and in the 1980s and 1990s
+a spike in interest in LISP, FORTRAN has remained a foundational technology: Through the 1990s
+entire books focused on it, and while that has fallen off, it remains a focus in individual papers.</p>
+
+
+<figure>
+<img src="charts/worldcat-keyword-multi-lingual.svg">
+<figcaption>Figure 3: Results from WorldCat (2 year moving average)</figcaption>
+</figure>
+
+<p>WorldCat also offers a language filter which might give us a sense of how interest
+  in different technologies has varied geographically. All media are taken together here
+  because of the smaller result counts. (These results should be viewed with caution:
+  Even a cursory look at the details will reveal a number of items
+which seem to be incorrectly characterized. My sense is that if one paper in a larger
+collection is in a non-English language, or if the volume is published by a European organization,
+it might come up in the filtered results.) That said, we begin to get a sense that ALGOL
+was signficantly more important in continental Europe than elsewhere.</p>
+
+<p>Widening the lens further, we can look at how "FORTRAN", "ALGOL", and "LISP" are used
+across all the printed material which Google has indexed.</p>
+
+<figure>
+<img src="charts/ngrams.svg">
+<figcaption>Figure 4: Frequencies from Google Books Ngram Viewer (2 year moving average, case-insensitive)</figcaption>
+</figure>
+
+<p>The French, German, and Italian corpora all show an early period of frequent use of the word "ALGOL":
+Until the later 1960s, it is more frequent than "FORTRAN". On the other hand, in American English "ALGOL"
+was always negligible. The trends in Spanish, likely dominated by Latin America, mirror American English,
+  though the frequencies are an order of magnitude lower. British English is perhaps more similar to
+Continental Europe than it is to North America.</p>
+
+<p>This has been digressive but I think the important parts are:</p>
+<ul>
+  <li>Wider searches on corpora can show trends that aren't obvious from limited article indexes.</li>
+  <li>Computer Science is geographically heterogeneous: Viewed from Europe, the work on ALGOL might be
+  a classic, even if that's not the case here.</li>
+  <li>The recognition of a classic may take some time. What changed in the 1980s to give McCarthy's article,
+  and the LISP language, an importance it hadn't seen in the preceding two decades?</li>
+</ul>
+
+<h2>Big Ideas</h2>
+
+<h2>Influences</h2>
+
+<hr>
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+</body>
+</html>
