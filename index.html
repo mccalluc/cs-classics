@@ -14,8 +14,8 @@
 <p>Addition and removal for the CS-121 reading list</p>
 <p>I will argue that McCarthy's "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I"
 should be added to the list, and, with some reluctance, that Nauer's "Report on the Algorithmic Language ALGOL 60"
-could be removed. At a high level, comparisons across bibliographic databases suggest that LISP has on on-going relevance
-that ALGOL does not. The case becomes stronger when we look at a few key ideas that McCarthy introduced, and latter
+could be removed. At a high level, comparisons across bibliographic databases suggest that Lisp has on on-going relevance
+that Algol does not. The case becomes stronger when we look at a few key ideas that McCarthy introduced, and latter
 papers that make particular reference to McCarthy's 1960 work.</p>
 
 <h2>Bibliometrics</h2>
@@ -25,12 +25,12 @@ striking, I don't think they are a good representation of relative importance of
 
 <figure>
 <img src="charts/paper-vs-language.svg">
-<figcaption>Figure 1: Results from Web of Science (2 year moving average, limited to CS categories)</figcaption>
+<figcaption>Figure 1: Web of Science (2 year moving average, limited to CS categories)</figcaption>
 </figure>
 
 <p>Since the 1980s, (McCarthy 1960) has averaged at or above 100 citations per year,
 while for (Backus 1959) there are scattered references, and none for (Nauer 1963).
-On the other hand, simply searching for "FORTRAN", "LISP", and "ALGOL" in article
+On the other hand, simply searching for "Fortran", "Lisp", and "Algol" in article
 titles might give us a totally different idea of which ideas have remained influential.
 (I limited the categories searched to CS because there were a number of astronomy papers
   about the start Algol, and I didn't want that to skew the results.)</p>
@@ -40,22 +40,22 @@ WorldCat began as a shared cataloging platform for libraries, and more recently 
 
 <figure>
 <img src="charts/worldcat-english-search-media.svg">
-<figcaption>Figure 2: Results from WorldCat (2 year moving average)</figcaption>
+<figcaption>Figure 2: WorldCat, book vs. article and keyword vs. title (2 year moving average)</figcaption>
 </figure>
 
 <p>The WorldCat article title search results are roughly similar to Web of Science, though there is
-  an earlier rise for "FORTRAN". I am not sure why this is: WorldCat's depth of coverage
+  an earlier rise for "Fortran". I am not sure why this is: WorldCat's depth of coverage
   during certain intervals may simply be different, or the category filter in Web of Science might make the difference.
   On the other hand,
 the results for books are clear, and markedly different than those for articles.
-This suggests that while there was some early interest in ALGOL, and in the 1980s and 1990s
-a spike in interest in LISP, FORTRAN has remained a foundational technology: Through the 1990s
+This suggests that while there was some early interest in Algol, and in the 1980s and 1990s
+a spike in interest in Lisp, Fortran has remained a foundational technology: Through the 1990s
 entire books focused on it, and while that has fallen off, it remains a focus in individual papers.</p>
 
 
 <figure>
 <img src="charts/worldcat-keyword-multi-lingual.svg">
-<figcaption>Figure 3: Results from WorldCat (2 year moving average)</figcaption>
+<figcaption>Figure 3: WorldCat, comparison across languages (2 year moving average)</figcaption>
 </figure>
 
 <p>WorldCat also offers a language filter which might give us a sense of how interest
@@ -64,10 +64,10 @@ entire books focused on it, and while that has fallen off, it remains a focus in
   Even a cursory look at the details will reveal a number of items
 which seem to be incorrectly characterized. My sense is that if one paper in a larger
 collection is in a non-English language, or if the volume is published by a European organization,
-it might come up in the filtered results.) That said, we begin to get a sense that ALGOL
+it might come up in the filtered results.) That said, we begin to get a sense that Algol
 was signficantly more important in continental Europe than elsewhere.</p>
 
-<p>Widening the lens further, we can look at how "FORTRAN", "ALGOL", and "LISP" are used
+<p>Widening the lens further, we can look at how "Fortran", "Algol", and "Lisp" are used
 across all the printed material which Google has indexed.</p>
 
 <figure>
@@ -75,33 +75,64 @@ across all the printed material which Google has indexed.</p>
 <figcaption>Figure 4: Frequencies from Google Books Ngram Viewer (2 year moving average, case-insensitive)</figcaption>
 </figure>
 
-<p>The French, German, and Italian corpora all show an early period of frequent use of the word "ALGOL":
-Until the later 1960s, it is more frequent than "FORTRAN". On the other hand, in American English "ALGOL"
+<p>The French, German, and Italian corpora all show an early period of frequent use of the word "Algol":
+Until the later 1960s, it is more frequent than "Fortran". On the other hand, in American English "Algol"
 was always negligible. The trends in Spanish, likely dominated by Latin America, mirror American English,
   though the frequencies are an order of magnitude lower. British English is perhaps more similar to
 Continental Europe than it is to North America.</p>
 
+<p>In all corpora except Italian, there is a spike beginning in the early 1980s.
+  This is also when citations pick up in Web Of Science and in WorldCat.
+  Steele (p262) sees the surge of interest in Lisp in the the 1980s as the intersection
+of several forces:</p>
+<ul>
+  <li>The publication of the first standard for the language in 1984</li>
+  <li>The interest in AI, and the view of Lisp as the language of AI</li>
+  <li>The economic climate of the 1980s, which brought venture capital in, and
+    which brought academic computer scientists out</li>
+</ul>
+
 <p>This has been digressive but I think the important parts are:</p>
 <ul>
   <li>Wider searches on corpora can show trends that aren't obvious from limited article indexes.</li>
-  <li>Computer Science is geographically heterogeneous: Viewed from Europe, the work on ALGOL might be
-  a classic, even if that's not the case here.</li>
-  <li>The recognition of a classic may take some time. What changed in the 1980s to give McCarthy's article,
-  and the LISP language, an importance it hadn't seen in the preceding two decades?</li>
+  <li>Computer Science is geographically heterogeneous: Viewed from Europe, the work on Algol might
+  seen as more important.</li>
+  <li>The broader recognition of a classic may take time.</li>
 </ul>
-
-<h2>Big Ideas</h2>
 
 <h2>Influences</h2>
 
+<p>McCarthy later added footnotes to the original paper, which explain some of the
+major influences, as he sees it:
+<ul>
+  <li>(p. 3) Conditional expressions were adopted into Algol from a suggestion he
+  made, though the <code>if ... then ... else</code> syntax was contributed by John Backus.</li>
+  <li>(p. 27) Garbage collection, though in the paper it is termed "reclamation".</li>
+  <li>(p. 29) The stack (or "public push-down list") makes recursion possible.</li>
+</ul>
+Paul Graham lists several more, including functions as first-class objects and variables as pointers.</p>
+
+<p>Steel and Gabriel's history suggests we also look at a higher level:
+  Lisp become a workbench where experiments in language design could be done.
+They make the analogy that what numbers are to Fortran, or bytes are to C,
+programs are to Lisp.</p>
+
 <hr>
-<p></p>
 
-<p></p>
+<p>Graham, Paul. "What Made Lisp Different." http://www.paulgraham.com/diff.html</p>
 
-<p></p>
+<p>Steele, Guy L. and Richard P Gabriel. "The Evolution of Lisp", p. 233-308, in
+<cite>History of Programming Languages - II</cite>, ed. Thomas J. Bergin, Richard G. Gibson.
+  ACM Press. 1996.</p>
 
-<p></p>
+<p><cite>WorldCat</cite>: http://www.worldcat.org/</p>
+
+<p><cite>Google Books Ngram Viewer</cite>: https://books.google.com/ngrams</p>
+
+<p><cite>Web of Science</cite>: https://webofknowledge.com/</p>
+
+<p>McCarthy, John. "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I".
+http://www-formal.stanford.edu/jmc/recursive.ps</p>
 
 </body>
 </html>
